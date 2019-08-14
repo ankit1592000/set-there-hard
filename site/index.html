@@ -1,9 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello world!</title>
+	<title>module-2 solution</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial scale=1">
+	<style>
+
+		*{
+			box-sizing: border-box;
+		}
+
+		h1{
+			margin-bottom: 15px;
+			text-align: center;
+			font-family: consolas;
+			color: red;
+		}
+
+		div#cont1{
+			background-color: yellow;
+			position: relative;
+            border: 1px solid black;
+            float: left;
+            margin: 30px 70px 70px 70px; 			
+            text-align: left;
+            font-family: aharoni; 
+
+		     }
+		     div#cont2{
+			background-color: yellow;
+			position: relative;
+           border: 1px solid black;
+            float: left;
+            margin: 30px 70px 70px 70px; 			
+            text-align: left;
+            font-family: aharoni; 
+
+		     }
+             div#cont3{
+			background-color: yellow;
+			position: relative;
+            border: 1px solid black;
+            float: left;
+            margin: 30px 70px 70px 70px; 			
+            text-align: left;
+            font-family: aharoni; 
+
+		     }
+
+
+		#p1
+		{
+			background-color: gray;
+			width: 100px;
+			height: 40px;
+			border: 1px solid black;
+			float: right;
+			position: relative;
+			bottom: 15px;
+			color: red;
+			font-family: arial;
+			text-align: center;
+		}
+
+		#p2
+		{
+			background-color: aqua;
+			width: 100px;
+			height: 40px;
+			border: 1px solid black;
+			float: right;
+			position: relative;
+			bottom: 15px;
+			color: red;
+			font-family: arial;
+			text-align: center;
+		}
+
+		#p3
+		{
+			background-color: green;
+			width: 100px;
+			height: 40px;
+			border: 1px solid black;
+			float: right;
+			position: relative;
+			bottom: 15px;
+			color: red;
+			font-family: arial;
+			text-align: center;
+		}
+		.r{
+			width: 100%;
+		}
+		/*For Large Devices*/
+@media (min-width: 992px){
+	div#cont1, div#cont2, div#cont3{
+		width: 19%;
+		
+	}
+}
+       /*For Medium Sized Devices*/
+@media (min-width: 768px) and (max-width: 991px){
+	
+    div#cont1, div#cont2{
+    	width: 30%;
+    	height: 50%;
+   
+    }
+	div#cont3{
+		width: 80%;
+	}
+}
+        /* For Small Devices*/
+@media (max-width: 767px)
+{
+	div#cont1, div#cont2, div#cont3{
+		width: 80%;
+	}
+}
+	</style>
 </head>
 <body>
-<h1>hello world!<h1>
+<h1>OUR MENU</h1>
+<div class="r">
+<div id="cont1"><p id="p1">CHICKEN</p><br><br><br>This is our first dish namely CHICKEN, eat this delicious dish and you will never forget the taste of it.</div>
+<div id="cont2"><p id="p2">BEEF</p><br><br><br>This is our second dish namely BEEF, eat this delicious dish and you will never forget the taste of it.</div>
+<div id="cont3"><p id="p3">SUSHI</p><br><br><br>This is our third dish namely SUSHI, eat this delicious dish and you will never forget the taste of it.</div>
+</div>
+
+
+
 </body>
 </html>
