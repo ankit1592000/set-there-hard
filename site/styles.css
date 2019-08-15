@@ -1,0 +1,50 @@
+
+#header-nav{
+	border-radius: 0;
+	background-color: yellow;
+}
+.navbar-brand{
+padding-top: 15px;
+}
+.navbar-brand h1{
+	font-family: aharoni;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: green;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav-list a:hover{
+	background: #E7E7E7;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 3px solid gray;
+
+
+   }
+  p{     
+   	
+  	color: black;
+  	border: 2px solid yellow;
+  }
+ 
+  h3{
+  	text-align: center;
+  	font-family: ms sans serif;
+  	color: green;
+  }
+
+li
+{
+	background-color: pink;
+	font-weight: bold;
+    border: 1px solid black;
+}
