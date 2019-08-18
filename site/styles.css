@@ -1,13 +1,8 @@
 /* Only this needed in the page's CSS */
 
 body{
-	background-color: gray;
+	
 	font-family: arial;
 	font-size: 16px;
 }
 
-.navbar-brand{
-	font-weight: bold;
-	color: blue;
-	text-shadow: 1px 1px 1px #222;
-}
